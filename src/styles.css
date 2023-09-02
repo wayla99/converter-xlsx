@@ -1,0 +1,53 @@
+.code-input {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.code-input label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.code-input input {
+  padding: 8px;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.json-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.copy-button.copied {
+  background-color: #28a745;
+}
